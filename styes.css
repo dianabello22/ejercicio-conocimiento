@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #111;
+  color: white;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .active {
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #111, #333);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+.hero span {
+  color: orange;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.hero button {
+  background: orange;
+  border: none;
+  padding: 15px 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background: #eee;
+}
+
+.feature {
+  text-align: center;
+  width: 250px;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background: linear-gradient(to right, #111, #333);
+  color: white;
+  padding: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.copy {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+}
+
+/* PAGE */
+.page {
+  padding: 50px;
+  text-align: center;
+}
