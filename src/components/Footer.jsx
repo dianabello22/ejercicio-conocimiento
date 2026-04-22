@@ -32,8 +32,6 @@ function Footer() {
 
       </div>
 
-      <hr />
-
       <p className="copy">
         © 2024 Urban Threads. Todos los derechos reservados.
       </p>
